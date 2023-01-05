@@ -1,0 +1,123 @@
+body {
+    padding: 0;
+    margin : 0;
+}
+
+.container {
+    background-color: #E5E3E4;
+}
+
+.header-background {
+    background-image: url(img/backround.png);
+    background-size : cover;
+}
+
+.intro-p {
+    padding   : 50px;
+    text-align: center;
+    color     : aliceblue;
+    font-size : 40px;
+}
+
+.strike-p {
+    text-decoration: line-through;
+}
+
+.underline-h {
+    text-decoration: underline;
+    color          : #14255f;
+    text-align     : center;
+}
+
+.italic-p {
+    font-style: italic;
+}
+
+.header-h1 {
+    font-size    : 45px;
+    margin-bottom: 50px;
+}
+
+.content-nav {
+    padding  : 20px 50px 20px 50px;
+    font-size: 25px;
+}
+
+.content-nav>ul {
+    list-style: none;
+}
+
+ul>li {
+    list-style: none;
+}
+
+a {
+    color          : #14255f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+.monogram {
+    text-align: center;
+}
+
+.chapter-center {
+    text-align: center;
+}
+
+.chapter {
+    padding: 10px 50px 10px 50px
+}
+
+.chapter>table {
+    margin-left   : 15%;
+    border        : 1px solid #474d73;
+    border-spacing: 5px;
+    text-align    : center;
+    margin-bottom : 70px;
+}
+
+th,
+td {
+    font-size: 25px;
+    padding  : 5px;
+    border   : 1px solid #474d73;
+}
+
+section>p {
+    font-size : 25px;
+    text-align: justify;
+}
+
+.bold-h {
+    font-weight: bold;
+    font-size  : 25px;
+}
+
+.italic-h {
+    font-style: italic;
+    font-size : 25px;
+}
+
+.bold-it-note {
+    font-weight    : bold;
+    font-style     : italic;
+    text-decoration: underline;
+}
+
+.ill-right {
+    text-align: right;
+}
+
+.footer {
+    text-align: center;
+    padding   : 50px;
+}
+
+.footer-link {
+
+    font-size: 30px;
+}
